@@ -1,0 +1,70 @@
+* {
+    margin: 0px;
+}
+
+
+/* SECTION HAUT DE PAGE */
+
+section.hautpage
+/* couleurs */
+
+{
+    background: url(Images/hautpagefont.png);
+    background-size: cover;
+}
+
+
+/* positionnement */
+
+.entete {
+    display: flex;
+    margin-left: 100px;
+    padding: 10px;
+    justify-content: space-between;
+    width: 1000px;
+    background-color: none;
+}
+
+.sousentete {
+    display: flex;
+    align-items: center;
+}
+
+.sousentete .nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    background-color: none;
+    font-size: 10;
+    border: none;
+}
+
+.sousentete .nav li a {
+    color: black;
+    font-size: 25px;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.entete #moi {
+    position: relative;
+    height: 100%;
+    width: 100px;
+    right: -25px;
+    top: 10px;
+    animation: animateImg 5s linear infinite;
+}
+
+@keyframes animateImg {
+    50% {
+        right: 15px;
+        top: 15px;
+    }
+}
+
+.sousentete .nav li a:hover {
+    color: rgb(142, 193, 241);
+}

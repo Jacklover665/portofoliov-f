@@ -1,0 +1,148 @@
+* {
+    margin: 0px;
+}
+
+
+/* SECTION HAUT DE PAGE */
+
+section.hautpage
+/* couleurs */
+
+{
+    background: url(Images/hautpagefont.png);
+    background-size: cover;
+}
+
+
+/* positionnement */
+
+.entete {
+    display: flex;
+    margin-left: 100px;
+    padding: 10px;
+    justify-content: space-between;
+    width: 1000px;
+    background-color: none;
+}
+
+.sousentete {
+    display: flex;
+    align-items: center;
+}
+
+.sousentete .nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    background-color: none;
+    font-size: 10;
+    border: none;
+}
+
+.sousentete .nav li a:hover {
+    color: rgb(142, 193, 241);
+}
+
+.sousentete .nav li a {
+    color: black;
+    font-size: 25px;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.entete #moi {
+    position: relative;
+    height: 100%;
+    width: 100px;
+    right: -25px;
+    top: 10px;
+    animation: animateImg 5s linear infinite;
+}
+
+@keyframes animateImg {
+    50% {
+        right: 15px;
+        top: 15px;
+    }
+}
+
+
+/* SECTION DESCRIPTION */
+
+section.description
+/* couleur */
+
+{
+    background: url(Images/fontdepage1.jpg);
+    background-size: cover;
+    margin: 0px;
+}
+
+
+/* POSITION */
+
+h1 {
+    width: 300px;
+    position: 50%;
+    background-color: none;
+    font-size: 50px;
+    font-display: flex;
+    color: black;
+    padding: 20px;
+    margin-inline-start: 30px;
+}
+
+h1,
+p {
+    margin-left: 50px;
+}
+
+p {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 50px;
+    padding: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 28px;
+}
+
+.acc {
+    background: rgb(105, 103, 103);
+    font-style: none;
+    margin-left: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.4);
+}
+
+.con {
+    background: rgb(105, 103, 103);
+    font-style: none;
+    margin-left: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.4);
+}
+
+button:hover {
+    background-color: rgb(142, 193, 241);
+}
